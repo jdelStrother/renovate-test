@@ -10,7 +10,8 @@
   "resolutions": {
     "//": [
       "Avoid pulling in Chokidar 2 for Storybook's webpack 4 dependency. Otherwise you get install errors on node 14",
-      "react-is uses >= 17 to avoid dupe 16.x & 17.x packages for react-is"
+      "react-is uses >= 17 to avoid dupe 16.x & 17.x packages for react-is",
+      "a test"
     ],
     "**/isomorphic-fetch/node-fetch": "^2.6.1",
     "chokidar": ">=3.0.0",
